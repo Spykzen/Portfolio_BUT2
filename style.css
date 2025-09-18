@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'StarWars-Regular';
+    src: url('./font/StarWars-Regular.otf') format('truetype');
+}
+html, button {
+    font-family: 'StarWars-Regular', sans-serif;
+    color: black;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 0);
+    font-size: 35px;
+}
+body {
+    background-image: url('./image/fond7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 0);
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px groove yellow;
+    height: 80px;
+    gap: 5%;
+    position: sticky;
+    top: 5px;
+    overflow: hidden;
+}
+nav > section > img {
+    margin-left: 1%;
+    margin-right: 2%;
+    height: 65px;
+    width: 65px;
+}
+nav > section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.nav_section_img {
+    font-size: 80%;
+    width: 30%;
+}
+.nav_section_button {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.traduire {
+    height: 85%;
+    width: 75%;
+    font-size: 55%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0.5px solid yellow;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.traduire:hover {
+    background-color: rgb(25, 25, 25, 0.7);
+    border: 2px solid yellow;
+}
+
+.nav_section_autre {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.nav_section_autre > div {
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+/* Temporary */
+hr {
+    border: none;
+}
+
+.text {
+    margin: 3% 5%;
+    font-size: 30px;
+}
