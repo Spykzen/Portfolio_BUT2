@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./image/logo.png">
+    <title>Portfolio Battista Nicolas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav>
+        <section class="nav_section_img"><a href="index.html"><img src="./image/logo.png" alt="Logo"
+                    class="logo">Battista Nicolas</a></section>
+        <section class="nav_section_button"><button class="traduire">Traduire</button></section>
+        <section class="nav_section_autre">
+            <div><a href="biographie.html">Biographie</a></div>
+            <div><a href="projets.html">Projets</a></div>
+            <div><a href="competences.html">Competences</a></div>
+        </section>
+        <section class="page_actu">Contact</section>
+    </nav>
+    <form action="(...).php" method="post">
+        <h2>Contactez moi :</h2>
+        <label for="nom">
+            Nom
+            <input type="text" name="nom" placeholder="Votre nom" required>
+        </label>
+        <label for="prenom">
+            Prenom
+            <input type="text" name="prenom" placeholder="Votre prenom" required>
+        </label>
+        <label for="date">
+            Date de naissance
+            <input type="date" name="date_naiss" required>
+        </label>
+        <label for="email">
+            Email
+            <input type="email" name="email" placeholder="Votre email" required>
+        </label>
+        <label for="telephone">
+            Telephone
+            <input type="tel" name="telephone" placeholder="Votre numero de telephone" required>
+        </label>
+        <label for="message">
+            Message
+            <textarea name="message" id="message" rows="10" placeholder="Tapez votre message"></textarea>
+        </label>
+        <label for="file">
+            Joindre un fichier
+            <input class="file" type="file" name="file" accept=".pdf">
+        </label>
+        <button type="submit" class="submit">Envoyer</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body {
+    background-image: url('./image/fond8.jpg');
+    color: lightskyblue;
+    -webkit-text-stroke: 0.7px darkblue;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 110%;
+    margin-top: 3%;
+    color: aqua;
+    -webkit-text-stroke: 1.5px darkblue;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+nav {
+    margin-bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkblue;
+    background-color: rgba(0, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 50%;
+    margin: 3% 0;
+    padding: 2%;
+}
+
+input {
+    margin: 1% 0;
+    background-color: rgba(173, 216, 230, 0.6);
+    color: black;
+    -webkit-text-stroke: 0.7px rgb(255, 255, 0);
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    font-size: 70%;
+}
+.file {
+    height: 30px;
+    background-color: rgba(173, 216, 230, 0.5);
+    cursor: pointer;
+}
+.file:hover {
+    background-color: rgba(191, 233, 247, 0.8);
+}
+.file::file-selector-button {
+    font-family: 'StarWars-Regular', sans-serif;
+    border: 2px solid darkblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: lightskyblue;
+    -webkit-text-stroke: 1px darkblue;
+    cursor: pointer;
+    height: 100%;
+}
+
+textarea {
+    font-family: 'StarWars-Regular', sans-serif;
+    resize: vertical;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.6);
+    color: black;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 0);
+    font-size: 65%;
+}
+
+.submit {
+    background-color: rgba(0, 255, 255, 0.6);
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    color: aqua;
+    -webkit-text-stroke: 1.5px darkblue;
+    font-size: 80%;
+    height: 50px;
+    width: 20%;
+    margin-top: 3%;
+}
+
+.submit:hover {
+    border: 3px solid darkblue;
+    background-color: rgba(0, 255, 255, 0.8);
+    cursor: pointer;
+}
